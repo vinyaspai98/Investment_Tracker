@@ -1,0 +1,53 @@
+{
+	"investment_DB": [
+		{
+			"userId": "dh23ggj5h32g543j5gf43",
+			"Name": "vinyas",
+			"Password": "vinyas123",
+			"phoneNumber": "7338324602",
+			"EmailID": "vinyaspai98@gmail.com",
+			"Investments": {
+				"totalInvestedValue": 50000,
+				"totalAssetValue": 55000,
+				"indianStocks": [
+					{
+						"name": "LNT",
+						"units": 2,
+						"investedValue": 5000,
+						"currentValue": 5000
+					},
+					{
+						"name": "LRCX",
+						"units": 2,
+						"investedValue": 5000,
+						"currentValue": 5000
+					}
+				],
+				"usStocks": [
+					{
+						"name": "LNT",
+						"units": 2,
+						"investedValue": 5000,
+						"currentValue": 5000
+					}
+				],
+				"mutualFunds": [
+					{
+						"name": "LNT",
+						"units": 2,
+						"investedValue": 5000,
+						"currentValue": 5000
+					}
+				],
+				"fds": [
+					{
+						"name": "LNT",
+						"units": 2,
+						"investedValue": 5000,
+						"currentValue": 5000
+					}
+				]
+			}
+		}
+	]
+}
