@@ -1,0 +1,40 @@
+.investment-card {
+    max-width: 170px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 15%;
+  }
+  
+.investment-header-image {
+    align-content: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .investment-image{
+    height: 40px;
+    width: 40px;
+    border-radius: 1px;
+    margin: 20px 20px 0px 20px;    
+  }
+
+  .investment-title{
+    font-size: 15px;
+    text-align: center;
+  }
+  .investment-subtitle{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .investment-status-img{
+    width: 15px;
+    height: 15px;
+  }
+
+  .investment-rows{
+    margin-left: 100px;
+    margin-right: 100px;
+    align-content: center;
+  }
