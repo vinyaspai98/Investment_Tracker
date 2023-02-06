@@ -1,53 +1,39 @@
 <div class="main-content">
   <div class="container-fluid">
-      <div class="row">
-          <div class="col-lg-4 col-md-6 col-sm-6">
-              <div class="card card-stats">
-                  <div class="card-header card-header-warning card-header-icon">
-                      <div class="card-icon">
-                          <i class="material-icons">account_balance</i>
-                      </div>
-                      <p class="card-category">My Net Worth</p>
-                      <h3 class="card-title">1500000
-                          <small>Rs</small>
-                      </h3>
-                  </div>
-                  
-              </div>
+      <div class="row investment-rows">
+        <mat-card class="net-asset-card">
+          <mat-card-header class="investment-card-text">
+            <mat-card-title class="investment-title dashboard-card-text" >MY NET ASSET</mat-card-title>
+            <mat-card-subtitle class="investment-subtitle dashboard-card-text"><span>&#8377;</span>500000 <img src="/assets/img/investments/up.png" class="investment-status-img"></mat-card-subtitle>
+          </mat-card-header>
+          <div class="row investment-rows">
+              <mat-card class="dashboard-card investment-card-color">
+                <div mat-card-image class="investment-header-image">
+                    <img src="/assets/img/investments/mutual_fund.png" class="investment-image">
+                </div>
+                <mat-card-header class="investment-card-text">
+                  <mat-card-title class="investment-title dashboard-card-text">My Total Investment</mat-card-title>
+                  <mat-card-subtitle class="investment-subtitle dashboard-card-text" ><span>&#8377;</span>50000 <img src="/assets/img/investments/up.png" class="investment-status-img"></mat-card-subtitle>
+                </mat-card-header>
+              </mat-card>
+              <mat-card class="dashboard-card liability-card-color">
+                <div mat-card-image class="investment-header-image">
+                    <img src="/assets/img/investments/mutual_fund.png" class="investment-image">
+                </div>
+                <mat-card-header class="investment-card-text">
+                  <mat-card-title class="investment-title dashboard-card-text">My Total Liability</mat-card-title>
+                  <mat-card-subtitle class="investment-subtitle dashboard-card-text" ><span>&#8377;</span>50000 <img src="/assets/img/investments/up.png" class="investment-status-img"></mat-card-subtitle>
+                </mat-card-header>
+              </mat-card>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-6">
-              <div class="card card-stats">
-                  <div class="card-header card-header-success card-header-icon">
-                      <div class="card-icon">
-                          <i class="material-icons">store</i>
-                      </div>
-                      <p class="card-category">My total Investments</p>
-                      <h3 class="card-title">2500000
-                        <small>Rs</small></h3>
-                  </div>
-              </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-sm-6">
-              <div class="card card-stats">
-                  <div class="card-header card-header-danger card-header-icon">
-                      <div class="card-icon">
-                          <i class="material-icons">info_outline</i>
-                      </div>
-                      <p class="card-category">My Total Loans</p>
-                      <h3 class="card-title">1000000
-                        <small>Rs</small>
-                      </h3>
-                  </div>
-                  
-              </div>
-          </div>
+        </mat-card>
       </div>
       <div class="row investment-rows">
         <mat-card class="investment-card">
             <div mat-card-image class="investment-header-image">
                 <img src="/assets/img/investments/mutual_fund.png" class="investment-image">
             </div>
-            <mat-card-header>
+            <mat-card-header class="investment-card-text">
               <mat-card-title class="investment-title">Indian Stocks</mat-card-title>
               <mat-card-subtitle class="investment-subtitle"><span>&#8377;</span>50000 <img src="/assets/img/investments/up.png" class="investment-status-img"></mat-card-subtitle>
             </mat-card-header>
@@ -60,7 +46,7 @@
             <div mat-card-image class="investment-header-image">
                 <img src="/assets/img/investments/mutual_fund.png" class="investment-image">
             </div>
-            <mat-card-header>
+            <mat-card-header class="investment-card-text">
               <mat-card-title class="investment-title">Mutual Funds</mat-card-title>
               <mat-card-subtitle class="investment-subtitle"><span>&#8377;</span>50000 <img src="/assets/img/investments/up.png" class="investment-status-img"></mat-card-subtitle>
             </mat-card-header>
@@ -73,7 +59,7 @@
             <div mat-card-image class="investment-header-image">
                 <img src="/assets/img/investments/mutual_fund.png" class="investment-image">
             </div>
-            <mat-card-header>
+            <mat-card-header class="investment-card-text">
               <mat-card-title class="investment-title">U S Stcoks</mat-card-title>
               <mat-card-subtitle class="investment-subtitle"><span>&#8377;</span>50000 <img src="/assets/img/investments/up.png" class="investment-status-img"></mat-card-subtitle>
             </mat-card-header>
@@ -86,7 +72,7 @@
             <div mat-card-image class="investment-header-image">
                 <img src="/assets/img/investments/mutual_fund.png" class="investment-image">
             </div>
-            <mat-card-header>
+            <mat-card-header class="investment-card-text">
               <mat-card-title class="investment-title">FD</mat-card-title>
               <mat-card-subtitle class="investment-subtitle"><span>&#8377;</span>50000 <img src="/assets/img/investments/up.png" class="investment-status-img"></mat-card-subtitle>
             </mat-card-header>
@@ -99,7 +85,7 @@
             <div mat-card-image class="investment-header-image">
                 <img src="/assets/img/investments/mutual_fund.png" class="investment-image">
             </div>
-            <mat-card-header>
+            <mat-card-header class="investment-card-text">
               <mat-card-title class="investment-title">Bonds</mat-card-title>
               <mat-card-subtitle class="investment-subtitle"><span>&#8377;</span>50000 <img src="/assets/img/investments/up.png" class="investment-status-img"></mat-card-subtitle>
             </mat-card-header>
@@ -112,7 +98,7 @@
             <div mat-card-image class="investment-header-image">
                 <img src="/assets/img/investments/mutual_fund.png" class="investment-image">
             </div>
-            <mat-card-header>
+            <mat-card-header class="investment-card-text">
               <mat-card-title class="investment-title">NPS</mat-card-title>
               <mat-card-subtitle class="investment-subtitle"><span>&#8377;</span>50000 <img src="/assets/img/investments/up.png" class="investment-status-img"></mat-card-subtitle>
             </mat-card-header>
@@ -125,7 +111,7 @@
             <div mat-card-image class="investment-header-image">
                 <img src="/assets/img/investments/mutual_fund.png" class="investment-image">
             </div>
-            <mat-card-header>
+            <mat-card-header class="investment-card-text">
               <mat-card-title class="investment-title">EPF</mat-card-title>
               <mat-card-subtitle class="investment-subtitle"><span>&#8377;</span>50000 <img src="/assets/img/investments/up.png" class="investment-status-img"></mat-card-subtitle>
             </mat-card-header>
@@ -138,7 +124,7 @@
             <div mat-card-image class="investment-header-image">
                 <img src="/assets/img/investments/mutual_fund.png" class="investment-image">
             </div>
-            <mat-card-header>
+            <mat-card-header class="investment-card-text">
               <mat-card-title class="investment-title">PPF</mat-card-title>
               <mat-card-subtitle class="investment-subtitle"><span>&#8377;</span>50000 <img src="/assets/img/investments/down.png" class="investment-status-img"></mat-card-subtitle>
             </mat-card-header>
@@ -151,7 +137,7 @@
             <div mat-card-image class="investment-header-image">
                 <img src="/assets/img/investments/mutual_fund.png" class="investment-image">
             </div>
-            <mat-card-header>
+            <mat-card-header class="investment-card-text">
               <mat-card-title class="investment-title">Others</mat-card-title>
               <mat-card-subtitle class="investment-subtitle"><span>&#8377;</span>50000 <img src="/assets/img/investments/up.png" class="investment-status-img"></mat-card-subtitle>
             </mat-card-header>

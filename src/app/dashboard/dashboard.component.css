@@ -1,10 +1,41 @@
 .investment-card {
     max-width: 170px;
-    margin-left: 20px;
+    margin-left: 1%;
     margin-top: 10px;
     margin-bottom: 20px;
     border-radius: 15%;
   }
+
+  .net-asset-card{
+    width: 60%;
+    min-width: 250px;
+    height: 200px;
+    margin-top: 10px;
+    border-radius: 2%;
+    margin: auto;
+    margin-bottom: 8%;
+    background: #083859;
+  }
+
+.dashboard-card-text{
+  color: white;
+  font-size: 20px;
+}
+
+.dashboard-card{
+  width: 40%;
+  border-radius:12%;
+  margin: auto; 
+  margin-top: 6%;
+}
+
+.investment-card-color{
+  background: #24c23c;
+}
+
+.liability-card-color{
+  background: #be1111;
+}
   
 .investment-header-image {
     align-content: center;
@@ -34,7 +65,12 @@
   }
 
   .investment-rows{
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 2%;
+    margin-right: 2%;
     align-content: center;
+  }
+
+  .investment-card-text
+  {
+    justify-content: center;
   }
